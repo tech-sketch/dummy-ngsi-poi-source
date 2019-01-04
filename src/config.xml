@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<operator xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="TIS Inc." name="dummy-ngsi-source" version="0.0.1">
+    <details>
+        <title>Dummy NGSI source</title>
+        <homepage>https://example.com</homepage>
+        <authors>Nobuyuki Matsui &lt;nobuyuki.matsui@gmail.com&gt;</authors>
+        <email>nobuyuki.matsui@gmail.com</email>
+        <image>images/catalogue.png</image>
+        <description>Generate dummy entities of Orion Context Broker.</description>
+        <longdescription>DESCRIPTION.md</longdescription>
+        <license>Apache License 2.0</license>
+        <licenseurl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseurl>
+        <doc>doc/userguide.md</doc>
+        <changelog>doc/changelog.md</changelog>
+        <issuetracker>https://example.com</issuetracker>
+    </details>
+    <preferences>
+        <preference
+            name="generating"
+            type="boolean"
+            label="start generating"
+            description="If true, generate dummy entities periodically"
+            default="false" />
+    </preferences>
+    <wiring>
+        <outputendpoint name="entityOutput" type="text" label="Dummy Entities" description="generated entity values" friendcode="entity-list"/>
+    </wiring>
+    <scripts>
+        <script src="js/main.js"/>
+    </scripts>
+</operator>
