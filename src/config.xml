@@ -2,7 +2,7 @@
 <operator xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="TIS Inc." name="dummy-ngsi-source" version="0.0.1">
     <details>
         <title>Dummy NGSI source</title>
-        <homepage>https://example.com</homepage>
+        <homepage>https://github.com/tech-sketch/dummy-ngsi-poi-source</homepage>
         <authors>Nobuyuki Matsui &lt;nobuyuki.matsui@gmail.com&gt;</authors>
         <email>nobuyuki.matsui@gmail.com</email>
         <image>images/catalogue.png</image>
@@ -12,7 +12,7 @@
         <licenseurl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseurl>
         <doc>doc/userguide.md</doc>
         <changelog>doc/changelog.md</changelog>
-        <issuetracker>https://example.com</issuetracker>
+        <issuetracker>https://github.com/tech-sketch/dummy-ngsi-poi-source/issues</issuetracker>
     </details>
     <preferences>
         <preference
